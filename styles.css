@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(2, 2, 27); 
+    position:sticky; 
+    top:0;
+}
+
+.container-nav-titulo{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-nav-menulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 30px;
+}
+
+.nosotros,
+.servicios,
+.contacto{
+    text-decoration: none;
+
+}
+
+.container-nav-menulist a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.banner{
+    height: 850px;
+    background-image: linear-gradient( to right,rgba(0,0,0,0.6), rgba(0,0,0,0)), url('./images/positron-data-center-y-sus-funciones.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-texto{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    width: 50%;
+    padding: 200px 0 0 50px;
+}
+.banner-texto1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    width: 50%;
+    padding: 80px 0 0 50px;
+}
+/* COMIENZA NOSOTROS */
+
+.container-nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgb(10, 10, 133);
+}
+
+.container-nosotros-titulo{
+    text-align: center;
+    font-size: 48px; 
+    font-weight: 500;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    padding: 30px 0 30px 0; 
+    text-decoration: none;
+}
+
+/* NOSOTROS CARDS */
+
+.container-nosotros-seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: 380px;
+}
+
+.nosotros-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 295px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background-color:   rgb(6, 6, 95);
+    transition: all ease;
+    transition-duration: 1.5s;
+}
+
+.nosotros-card-texto{
+    text-align: center;
+    transition: all ease;
+    transition-duration: 1s;
+}
+
+.nosotros-card-texto-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    line-height: 21.6px;
+    color:#fff;
+    
+}
+
+.nosotros-card-texto-descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 24px;
+    color: #d8eafe;
+    padding: 0 20px 0 20px;
+}
+
+/* hover cards */
+
+.nosotros-card:hover{
+    background-color:  rgb(2, 2, 27);
+}
+
+
+/* COMIENZA SERVICIOS */
+.container-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    background-color: rgb(6, 6, 95);
+    padding-bottom: 100px;
+}
+
+.container-servicios-titulo{
+    text-align: center;
+    font-size: 48px; 
+    font-weight: 500;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    padding: 0px 0 50px 0; 
+    margin-bottom:120px;
+    text-decoration: none;
+}
+
+.container-servicios-seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: 380px;
+}
+/* .servicios-caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 295px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background-color:  rgb(10, 10, 133);
+    transition: all ease;
+    transition-duration: 1.5s;
+
+} */
+.servicios-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    height: 295px;
+    margin: 30px 30px 10px 30px;
+    border-radius: 10px;
+    background-color:   rgb(10, 10, 133);
+    transition: all ease;
+    transition-duration: 1.5s;
+}
+
+.servicios-card-texto{
+    text-align: center;
+    transition: all ease;
+    transition-duration: 1s;
+}
+
+.servicios-card-texto-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    line-height: 21.6px;
+    color:#fff;
+    
+}
+
+.servicios-card-texto-descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 24px;
+    color: #d8eafe;
+    padding: 0 20px 0 20px;
+}
+
+.servicios-card:hover{
+    background-color:  rgb(2, 2, 27);
+}
+
+
+/* COMIENZA TRABAJOS
+.container-trabajos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgb(10, 10, 133);
+}
+
+.container-trabajos-titulo{
+    text-align: center;
+    font-size: 48px; 
+    font-weight: 500;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    padding: 30px 0 30px 0; 
+} */
+
+/* COMIENZA CONTACTO */
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgb(10, 10, 133);
+    margin: 0 auto;
+}
+
+.container-contacto-titulo{
+    text-align: center;
+    font-size: 48px; 
+    font-weight: 500;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    padding: 30px 0 30px 0; 
+    margin: 30px;
+    text-decoration: none;
+}
+/* formulario */
+
+.container-form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center; 
+
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center; 
+    color:  #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin:50px;
+   
+    
+}
+
+label{
+    display: flex;
+    margin: 10px 0;
+    height: 30px;  
+    
+}
+
+span{
+    width: 100px;
+    margin-left: 60px;
+}
+ 
+.input-field{
+    flex:1;
+    width: 500px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color:rgb(6, 6, 95);
+    border-radius: 5px;
+    border: 2px solid  rgb(6, 6, 95);
+    padding-left: 5px;
+    margin-right: 15%;   
+}
+
+.input-field-mensaje{
+    flex:1;
+    width: 500px;
+    height: 100px;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color:rgb(6, 6, 95);
+    border-radius: 5px;
+    border: 2px solid  rgb(6, 6, 95);
+    padding-left: 5px;
+    margin-right: 15%;   
+}
+
+.input-field::placeholder { 
+    /* para place-holder */
+    color:rgb(6, 6, 95);
+}
+
+.input-field-mensaje::placeholder { 
+    /* para place-holder */
+    color:rgb(6, 6, 95);
+}
+
+/* .input-field::active{
+    outline: none; NO HACERRRRR! (accesibilidad)
+} */
+
+
+.input-field:focus{
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.input-field-mensaje:focus{
+    border: 2px solid rgb(0, 89, 255);
+}
+
+.cont-boton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.boton{
+    width: 172px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.089);
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px; 
+    padding-left: 5px;
+    margin-right: 15%;
+    transition: all ease 0.5s;
+    
+}
+
+.boton:hover{
+    background-color: #fff;
+    color:rgb(6, 6, 95);
+    font-weight: 300;
+}
+
+.boton-whatsapp{
+    position: fixed;
+    /* display: none; */
+    width: 44px;
+    height: 44px;
+    right: 40px;
+    bottom: 40px;
+    
+}
+
+.whatsapp-logo{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+}
+
+.whatsapp-logo-imagen{
+    width: 100%;
+    height: auto;
+    transition: all ease 0.5s;
+}
+
+.whatsapp-logo-imagen:hover{
+    transform: scale(1.05);
+}
+
+
+.graciasFondo{
+    background-color:rgb(6, 6, 95);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+
+}
+.graciasContenedor{
+    width: 60%;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Roboto",sans-serif;
+    color:#ffffff;
+    margin-bottom:60px;
+}
+
+.linkVolver{
+    font-size: 25px;
+    font-family: "Roboto",sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.linkVolver:hover{
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    color: rgb(27, 87, 250);
+}
